@@ -14,8 +14,14 @@ a.link-alt {
     color: #FBF5F3;
 }
 
-a.link-alt:hover {
-    color: #8DAA9D;
+a.link-alt2 {
+    font-weight: bold;
+    color: #46aeda;
+}
+
+a.link-alt2:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
 }
 
 .section-row {
@@ -30,6 +36,13 @@ a.link-alt:hover {
 .img-full-width {
     width: 100%;
 }
+.img-2nd-width {
+    width: 80%;
+}
+.img-3rd-width {
+    width: 40%;
+}
+
 
 .img-bordered {
     border: 5px solid #FBF5F3;
@@ -45,9 +58,11 @@ a.link-alt:hover {
 }
 
 .text-color-white {
-    color: #FBF5F3;
+    color: #fafafa;
 }
-
+.text-color-blue {
+    color: #46aeda;
+}
 .text-color-red {
     color: #7B0828;
 }
@@ -106,3 +121,24 @@ a.link-alt:hover {
 .work-item div {
     padding-top: 15px;
 }
+
+.board {
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .square {
+    border: solid;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+  }
+  
+  .status {
+    margin-top: 20px;
+  }
